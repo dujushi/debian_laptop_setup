@@ -1,0 +1,13 @@
+1, install fcitx
+2, install fcitx pinyin
+3, add config .xinitrc
+LANG=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+export LANG LC_CTYPE
+#export LC_ALL=en_US.UTF-8
+
+# for fcitx or scim
+export XMODIFIERS="@im=fcitx"
+#export XMODIFIERS="@im=SCIM"
+export GTK_IM_MODULE=xim
+export QT_IM_MODULE=xim
