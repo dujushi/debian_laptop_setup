@@ -1,0 +1,4 @@
+1, update /etc/dhcp/dhclient.conf
+prepend domain-name-servers 42.120.21.30;
+
+2, restart network
