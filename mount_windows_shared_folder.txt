@@ -1,0 +1,5 @@
+1, install cifs-utils
+2, edit /etc/fstab
+//xx.x.x.x/文件中转站 /mnt/t cifs rw,user,noauto,username=XX,password=XX  0       0
+3, mkdir /mnt/shared
+4, mount /mnt/shared
