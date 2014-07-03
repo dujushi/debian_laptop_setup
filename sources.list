@@ -1,0 +1,15 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 7.5.0 _Wheezy_ - Official amd64 NETINST Binary-1 20140426-13:35]/ wheezy contrib main non-free
+
+#deb cdrom:[Debian GNU/Linux 7.5.0 _Wheezy_ - Official amd64 NETINST Binary-1 20140426-13:35]/ wheezy contrib main non-free
+
+deb http://mirrors.163.com/debian/ wheezy main
+#deb-src http://mirrors.163.com/debian/ wheezy main
+
+#deb http://security.debian.org/ wheezy/updates main contrib non-free
+#deb-src http://security.debian.org/ wheezy/updates main contrib non-free
+
+# wheezy-updates, previously known as 'volatile'
+#deb http://mirrors.163.com/debian/ wheezy-updates main contrib non-free
+#deb-src http://mirrors.163.com/debian/ wheezy-updates main contrib non-free

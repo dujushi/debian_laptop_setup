@@ -1,0 +1,7 @@
+1, install xfce4
+aptitude install xfce4
+
+2, start xfce4
+startx
+
+3, install xfce4-teminal

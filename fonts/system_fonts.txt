@@ -1,0 +1,2 @@
+aptitude install xfonts-wqy
+aptitude install fonts-arphic-uming
