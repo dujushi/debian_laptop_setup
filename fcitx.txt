@@ -1,6 +1,6 @@
 1, install fcitx
 2, install fcitx pinyin
-3, add config .xinitrc
+3, add config ~/.xinitrc
 LANG=en_US.UTF-8
 LC_CTYPE=en_US.UTF-8
 export LANG LC_CTYPE
@@ -11,3 +11,12 @@ export XMODIFIERS="@im=fcitx"
 #export XMODIFIERS="@im=SCIM"
 export GTK_IM_MODULE=xim
 export QT_IM_MODULE=xim
+
+4, check if it is running
+ps aux |grep fcitx
+
+5, run it in the background
+fcitx &
+
+6, update hot key to: ctrl + space
+config file location: /home/william/.config/fcitx/config 
